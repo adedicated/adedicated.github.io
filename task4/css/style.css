@@ -23,8 +23,12 @@ body{
 	line-height: 18px;
 	float: right;
 }
-.contacts ul{
-  padding-left: 300px;
+.contacts li{
+  text-align: right;
+  padding-right: 32px;
+}
+.contacts li:nth-child(4){
+  padding-right: 0;
 }
 .logo{
   padding-top: 11px;
@@ -53,6 +57,8 @@ body{
   float: left;
   width: 57px;
   text-align: center;
+  padding-right: 0;
+  padding-top: 20px;
 }
 .photo{
   width: 1000px;
