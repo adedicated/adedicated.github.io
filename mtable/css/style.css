@@ -1,0 +1,31 @@
+body{
+  background: #4e4e4e;
+}
+
+
+  .content{
+  	width: 550px;
+  	height: 620px;
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	margin: auto;
+    background: #fff;
+  }
+
+  table{
+  	border: 1px solid #ccc;
+  	border-collapse: collapse;
+    width: 550px;
+    height: 350px;
+  }
+
+  td, th{
+  	border: 10px black solid;
+    /*width: 55px;
+    height: 35px;*/
+
+  }
+}
