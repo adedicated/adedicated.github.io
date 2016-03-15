@@ -29,8 +29,8 @@ body{
 
 .menu {
   display: inline-block;
-  margin-left: -390px;
-  padding-left: 70%;
+  margin-left: -40px;
+  padding-left: calc(76% - 460px) ;
   min-width: 690px;
 }
 
@@ -50,6 +50,7 @@ body{
 
 .menu li a:hover {
   background-color: #4eabda;
+  color: #f0f0f0;
 }
 
 #offers {
@@ -61,6 +62,8 @@ body{
     text-decoration: none;
     padding: 5px 10px 0 8px;
     line-height: 25px;
+    color: #fff;
+    letter-spacing: 0.5px;
 }
 
 #offers a:before {
