@@ -53,11 +53,13 @@ body{
   color: #f0f0f0;
 }
 
-#offers {
+.offers {
     display: inline-block;
 }
-
-#offers a {
+.offers:hover {
+  background-color: #4eabda;
+}
+.offers a {
     float: right;
     text-decoration: none;
     padding: 5px 10px 0 8px;
@@ -66,7 +68,7 @@ body{
     letter-spacing: 0.5px;
 }
 
-#offers a:before {
+.offers a:before {
     content: '';
     display: block;
     float: left;
@@ -76,7 +78,7 @@ body{
     background: url('../img/flag.png') no-repeat;
 }
 
-#login {
+.login {
     display: block;
     float: right;
     line-height: 33px;
@@ -93,7 +95,7 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b1dd', endColorstr='#2f7ac5', GradientType=0 );
 }
 
-#login a {
+.login a {
     color: #fff;
     font-size: 14px;
     text-decoration: underline;
@@ -126,38 +128,36 @@ body{
 	display: inline-block;
   box-shadow: 0 1px 1px 0 #000;
 }
-.ou {
+.form-title-divider {
   padding: 15px 0;
 }
-.ou hr {
+.form-title-divider hr {
   border: none;
   color: #666;
   background-color: #666;
   height: 1px;
 }
-.ou span{
+.form-title-divider span{
   text-decoration: none;
 }
 
-form {
+.registration {
     width: 560px;
     margin: auto;
     text-align: center;
 }
-
-form > button, form > div, form > p, form > input, form > label {
+.registration h1{
+  margin: 30px auto;
+  font-size: 24px;
+}
+.registration {
     width: 276px;
     color: #ccc;
     margin: 8px auto;
     padding: 0 0;
 }
 
-form h1 {
-  margin: 30px auto;
-    font-size: 24px;
-}
-
-form > input {
+.registration input {
     line-height: 36px;
     background: #100f0f;
     border: none;
@@ -166,11 +166,11 @@ form > input {
     width: 250px;
 }
 
-input[type="checkbox"] {
+.registration input[type="checkbox"] {
     margin: 3px 3px 3px -15px;
 }
 
-input:focus {
+.registration input:focus {
     background: #1b5288;
     box-shadow: #699bcd 0 0 10px 3px;
 }
@@ -182,7 +182,7 @@ input:focus {
   margin: 30px auto 5px;
 }
 
-button[type="submit"] {
+.registration button[type="submit"] {
   padding: 5px;
   width: 140px;
   background: #50aedb;

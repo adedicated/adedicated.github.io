@@ -16,29 +16,31 @@
               <li><a href="#">Forum</a></li>
               <li><a href="#">Contato</a></li>
               <li><a href="#">Ajuda</a></li>
-              <li id="offers"><a href="#">Minhas Ofertas</a></li>
-              <li id="login"><div>
-                                    Ola!<a href="#">Entar</a>
-                                    ou<a href="#">Cadastre-se</a>
-                              </div>
+              <div class="offers">
+                <a href="#">Minhas Ofertas</a>
+              </div>
+              <div class="login">
+                    Ola!<a href="#">Entar</a>
+                    ou<a href="#">Cadastre-se</a>
+              </div>
               </li>
           </ul>
   </div>
   <div class="content">
-      <form action="#" method="post">
+      <form class="registration" action="#" method="post">
              <h1>Cadastre-se</h1>
              <hr>
-             <button href="#" type="button" id="fbLogin"></button>
-             <div class="ou">
+             <button class="form-item" href="#" type="button" id="fbLogin"></button>
+             <div class="form-title-divider">
                 <hr class="line">
                 <span>&nbspOU&nbsp</span>
                 <hr class="line">
               </div>
-             <input type="text" name="firstName" id="firstName" placeholder="First Name" />
-             <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
-             <input type="email" name="email" id="email" placeholder="Email Address" />
-             <input type="password" name="password" id="" placeholder="Choose Password" />
-             <input type="password" name="password_confirm" id="" placeholder="Password Confirm" />
+             <input class="form-item" type="text" name="firstName" id="firstName" placeholder="First Name" />
+             <input class="form-item" type="text" name="lastName" id="lastName" placeholder="Last Name" />
+             <input class="form-item" type="email" name="email" id="email" placeholder="Email Address" />
+             <input class="form-item" type="password" name="password" id="" placeholder="Choose Password" />
+             <input class="form-item" type="password" name="password_confirm" id="" placeholder="Password Confirm" />
              <div>
                  <label for="sendMe">
                      <input type="checkbox" value="" name="sendMe" id="sendMe" required="required"/>Send me YouBike updates and tips
