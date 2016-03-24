@@ -139,7 +139,6 @@ body{
 }
 .form-title-divider span{
   text-decoration: none;
-  color: #ccc;
 }
 
 .registration {
@@ -150,28 +149,27 @@ body{
 .registration h1{
   margin: 30px auto;
   font-size: 24px;
-  /*font-weight: 700;*/
+}
+.registration {
+    width: 276px;
+    color: #ccc;
+    margin: 8px auto;
+    padding: 0 0;
 }
 
 .registration input {
-    line-height: 35px;
+    line-height: 36px;
     background: #100f0f;
     border: none;
     border-bottom: 1px solid #484847;
-    margin: 8px 0;
-    padding: 0 25px;
-    width: 240px;
+    padding: 0 15px;
+    width: 250px;
 }
 
 .registration input[type="checkbox"] {
-  margin: 15px 3px;
-  width: inherit;
+    margin: 3px 3px 3px -15px;
+}
 
-}
-.agreement {
-  padding-right:67px;
-  text-align: center;
-}
 .registration input:focus {
     background: #1b5288;
     box-shadow: #699bcd 0 0 10px 3px;
@@ -180,16 +178,11 @@ body{
 #fbLogin {
   background: url('../img/fb.png') no-repeat;
   height: 35px;
-  width: 280px;
   border: none;
   margin: 30px auto 5px;
 }
 
 .registration button[type="submit"] {
-  font-family: "Helvetica Neue", Tahoma, sans-serif;
-  color: #fff;
-  font-size: 14px;
-  margin: 10px;
   padding: 5px;
   width: 140px;
   background: #50aedb;
